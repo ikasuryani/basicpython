@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 smtp_server = "smtp.gmail.com"
 port = 587  # For starttls
 sender_email = "hanadulset0001@gmail.com"
-password = "rahasia123123_"
+password = input("Input password for hanadulset0001@gmail.com : ")
     
 def send_email(emailaddr):
     message = MIMEMultipart("alternative")
